@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title> Whatsapp homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .aside{
+      background-color: lightcyan;
+      width: 35vw;
+      height: 40vh;
+      float: left;
+      
+    }
+.aside>.nav{
+  background-color: lightgray;
+  width: 35vw;
+  height: 65px; 
+  border-right: 1px solid black;
+  
+  
+  
+}    
+   .nav>div{
+     background-color: white;
+     height:50px;
+     width: 50px;
+     border-radius: 50px;
+   position: relative;
+   left:15px; 
+   top: 6px;
+   
+  
+  
+   } 
+.aside>input{
+  width: 35vw;
+  height: 50px;
+  border: 4px solid #30B795;
+  padding-left: 80px;
+  
+  
+}
+    
+    input::placeholder{
+      text-align: center;
+    }
+    .asidein{
+      overflow-y: scroll;
+      background-color: lightcyan;
+      height: 35vh;
+      
+    }
+    .line1{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Times New Roman', Times, serif
+      ;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle1{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line1>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line1>h5>span{
+    color: #8DB61F;
+    text-transform: none;
+  }
+ 
+    .line1>p{
+      position: relative;
+      left: 290px;
+      bottom: 100px;
+      color: #859881B5;
+    }
+    .line1:active{
+      background-color: lightgray;
+    }
+    
+        .line2{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle2{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line2>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line2>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line2>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+      .line2:active{
+      background-color: lightgray;
+    }
+        .line3{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle3{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line3>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line3>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line3>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+      .line3:active{
+      background-color: lightgray;
+    }
+                .line4{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle4{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line4>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line4>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line4>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line4:active{
+      background-color: lightgray;
+    }
+    
+             .line5{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle5{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line5>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line5>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line5>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line5:active{
+      background-color: lightgray;
+    }
+             .line6{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle6{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line6>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line6>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line6>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line6:active{
+      background-color: lightgray;
+    }
+    
+             .line7{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle7{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line7>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line7>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line7>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line7:active{
+      background-color: lightgray;
+    }
+             .line8{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle8{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line8>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line8>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line8>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line8:active{
+      background-color: lightgray;
+    }
+             .line9{
+  background-color: white;
+  width: 35vw;
+  height: 80px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-bottom: 2px solid lightgray;
+    }
+  
+  .circle9{
+    background-color: lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+   left:10px; 
+   top: 6px;
+  }
+   
+   
+  .line9>h5{
+    position: relative;
+    bottom: 50px;
+    left:100px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 0 5px 10px;
+  }
+  .line9>h5>span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+        color: #859881B5;
+    text-transform: none;
+  }
+ 
+    .line9>p{
+      position: relative;
+      left: 280px;
+      bottom: 100px;
+      font-size: 10px;
+      color: #859881B5;
+    }
+    .line9:active{
+      background-color: lightgray;
+    }
+    .main{
+         background-color: whitesmoke;
+      width: 65vw;
+      height: 41.5vh;
+      float: right;
+      position: relative;
+    }
+    .header{
+      background-color: lightgrey;
+      width: 65vw;
+      height: 65px;
+    }
+         .circle11{
+    background-color: lightcyan;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+   left:14px; 
+   top: 4px;
+  }
+   
+   
+  .header>h4{
+ position: absolute;
+ top: 12px;
+ left: 90px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+   
+  }
+  .header>span{
+    position: absolute;
+    top:40px;
+    left: 90px;
+    color: #B8B8B8;
+    text-transform: none;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px black;
+  }
+ .main>h3{
+   background-color: lightblue;
+   position: absolute;
+   left: 25vw;
+   bottom: 350px;
+   display: inline-block;
+   padding:10px;
+   border-radius: 10px;
+   color: #7D9BDC;
+  
+   
+ }
+  .main>h4{
+   background-color: greenyellow;
+   position: absolute;
+   left: 28vw;
+   padding:10px 15px 30px 15px;
+   bottom: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   color: #535E74;
+}
+h4>span{
+  font-size: 8px;
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+}
+  .main>.bb{
+   background-color: white;
+   position: absolute;
+   left: 8vw;
+   padding:8px 60px 8px 12px;
+   bottom: 190px;
+   display: inline-block;
+   border-radius: 10px;
+   color: #535E74;
+}
+.bb>span{
+  font-size: 8px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+.main>.cc{
+   background-color: greenyellow;
+   position: absolute;
+   left: 28vw;
+   
+   bottom: 85px;
+   display: inline-block;
+   border-radius: 10px;
+   color: #535E74;
+}
+.main>.cc>.tt{
+  color: blueviolet;
+}
+.footer{
+     background-color: lightgray;
+      width: 65vw;
+      height: 60px;
+      position: absolute;
+      bottom: 0;
+      
+}
+.footer>input{
+  width: 55vw;
+  height: 40px;
+  margin: 10px 0 10px  45px;
+  border-radius: 5px;
+  padding: 5px 20px ;
+}
+  </style>
+   
+</head>
+
+<body>
+  
+
+  
+  
+  
+</div>  
+     
+  
+<div class="aside">
+
+ 
+      <div class="nav" style="display: inline-block;">
+  
+  <div><i class="fa fa-address-book-o" aria-hidden="true"></i></div>
+    </div>
+      <label for="searchbar"></label>
+    <input type="search" name="search" id="searchbar" placeholder="search or start new chart">
+  <div class="asidein">
+        
+    
+    <div class="line1">
+  <div class="circle1"></div>
+  
+  <h5>Swati-thin <br><span>typing...</span></h5>
+  
+  <p>02-1</p>
+</div>
+
+  
+      <div class="line2">
+  <div class="circle2"></div>
+  
+  <h5>Chintu Voda <br> <span>in box top n center</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+
+   <div class="line3">
+  <div class="circle3"></div>
+  
+  <h5>pinnder whatzap <br> <span>K</span></h5>
+  
+  <p>Yesterday</p>
+  
+  
+</div>  
+  
+  
+  
+  
+   <div class="line4">
+  <div class="circle4"></div>
+  
+  <h5>priyanshu pune <br> <span>bahi bahi..</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+ 
+
+
+   <div class="line5">
+  <div class="circle5"></div>
+  
+  <h5>Harash mumbai <br> <span>✔️ Aram se</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+
+
+   <div class="line6">
+  <div class="circle6"></div>
+  
+  <h5>Jiten <br> <span>K</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+
+
+
+   <div class="line7">
+  <div class="circle7"></div>
+  
+  <h5>Akki <br> <span>bhai bahi...</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+   <div class="line8">
+  <div class="circle8"></div>
+  
+  <h5>Haroon <br> <span>Chal sai ha...</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+
+
+
+   <div class="line9">
+  <div class="circle9"></div>
+  
+  <h5>Mavia <br> <span>✔️Hana...</span></h5>
+  
+  <p>Yesterday</p>
+</div>  
+  </div>
+</div>
+
+<div class="main">
+  <div class="header">
+    
+  <div class="circle11" ></div>
+      <h4>Swati-thin </h4>
+  
+ <span>typing...</span>
+</div>
+    
+  
+  
+  
+  <h3>25 January 2015</h3>
+  
+  <h4>Hey! Have you seen Whatsapp Web Feature? <span>02:00</span></h4>
+  <h4 class="bb">Yeah_Awsummmm 😄😄😍 <span>02:01</span></h4>
+  
+  <h4 class="cc"> Find more details on <i class="tt">https://www.wikipedia.org/</i><br> I have just  published an article about it <span>02:01</span></h4>
+  <div class="footer">
+  
+   <label for="message"></label>
+   <input type="text" name="message" id="message">
+  </div>
+</div>
+
+</body>
+
+</html>
